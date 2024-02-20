@@ -18,10 +18,10 @@ Pytorch 1.7.0
 
 The structure of the network. 
 
-![](./logs/A.png)
+![](./logs/Figure2.jpg)
 
 ## Result
 
 GWD + UEC: epoch187 MAE 6.38 MSE 11.80
 
-![](./logs/B.png)
+![](./logs/Figure3.jpg)
