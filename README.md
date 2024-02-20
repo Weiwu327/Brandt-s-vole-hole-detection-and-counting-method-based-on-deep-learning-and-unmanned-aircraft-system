@@ -22,6 +22,11 @@ The structure of the network.
 
 ## Result
 
-GWD + UEC: epoch187 MAE 6.38 MSE 11.80
+FCOS: mAP 95.19% precision 84.70 recall 93.28 f1-score 0.89 FPS 50.12
 
 ![](./logs/Figure3.jpg)
+
+Accuracy: 90.20%
+
+![](./logs/Figure8.jpg)
+
