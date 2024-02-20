@@ -1,4 +1,4 @@
-# RGBLNet-ear-counting
+# Brandt's vole hole detection and counting method based on deep learning and unmanned aircraft system
 ## Prerequisite
 
 Python 3.7
@@ -7,27 +7,12 @@ Pytorch 1.7.0
 
 ## Code structure
 
-`density_map.py` To generate the density map. 
+`inference_one_image.py` To predict one big image. 
 
-`dataset.py` and `transforms.py` For data preprocess and augmentation. 
+`inference_patch.py` To predict sub-images. 
 
-`model.py` The structure of the network. 
+`inference_patch_segmentation.py` To segment one big image into sub-images. 
 
-`train.py` To train the model. 
-
-`eval.py` To test the model. 
-
-`predict_density.py` To predict the density maps. 
-
-## Train & Test
-
-For training, run
-
-`python train.py --data_path="path to dataset" --save_path="path to save checkpoint"`
-
-For testing, run
-
-`python eval.py --data_path="path to dataset" --save_path="path to checkpoint"`
 
 ## Structure
 
