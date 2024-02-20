@@ -13,7 +13,6 @@ Pytorch 1.7.0
 
 `inference_patch_segmentation.py` To segment one big image into sub-images. 
 
-
 ## Structure
 
 The structure of the network. 
@@ -30,3 +29,6 @@ Accuracy: 90.20%
 
 ![](./logs/Figure8.jpg)
 
+## Data & best_epoch_weights
+
+The code and data used are available at Zenodo https://doi.org/10.5281/zenodo.8278962.
